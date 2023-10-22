@@ -1,90 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer | Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero_section">
+      <div class="text_container">
+        <header>
+            <h2 class="protech">ProTech</h2>
+            <nav class="navigation">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">services</a>
+                <a href="#">Contact</a>
+                <button class="btnLogin-popup">Login</button>
+            </nav>
+        </header>
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>The Tribute Website | A.P. J Abdul Kalam</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="container">
-          <div class="content">
-            <section class="top_section">
-              <div class="image_container">
-                <img src="./images/apj.jpg" alt="tribute" />
-                <img src="./images/chandrayaan-3.jpg" alt="tribute" />
-              </div>
-              <div>
-                <h1>A . P . J Abdul Kalam</h1>
-                <h4>1931 - 2015</h4>
-              </div>
-            </section>
-            <section class="about_section">
-              <h2>Missile Man of India</h2>
-              <p>
-                <b>Avul Pakir Jainulabdeen Abdul Kalam</b> 15 October 1931 – 27 July
-                2015) was an Indian aerospace scientist who served as the 11th
-                president of India from 2002 to 2007. He was born and raised in
-                Rameswaram, Tamil Nadu and studied physics and aerospace
-                engineering. He spent the next four decades as a scientist and
-                science administrator, mainly at the Defence Research and
-                Development Organisation (DRDO) and Indian Space Research
-                Organisation (ISRO) and was intimately involved in India's civilian
-                space programme and military missile development efforts.[1] He thus
-                came to be known as the Missile Man of India for his work on the
-                development of ballistic missile and launch vehicle
-                technology.[2][3][4] He also played a pivotal organisational,
-                technical, and political role in India's Pokhran-II nuclear tests in
-                1998, the first since the original nuclear test by India in 1974.
-              </p>
-            </section>
-            <section class="biography_section">
-              <h3>Biographies</h3>
-              <ul>
-                <li>
-                  Eternal Quest: Life and Times of Dr Kalam by S Chandra; Pentagon
-                  Publishers, 2002.
-                </li>
-                <li>
-                  President A P J Abdul Kalam by R K Pruthi; Anmol Publications,
-                  2002.
-                </li>
-                <li>
-                  A P J Abdul Kalam: The Visionary of India by K Bhushan, G Katyal;
-                  A P H Pub Corp, 2002.
-                </li>
-                <li>
-                  A Little Dream (documentary film) by P. Dhanapal; Minveli Media
-                  Works Private Limited, 2008.
-                </li>
-                <li>
-                  The Kalam Effect: My Years with the President by P M Nair; Harper
-                  Collins, 2008.
-                </li>
-                <li>
-                  My Days With Mahatma Abdul Kalam by Fr A K George; Novel
-                  Corporation, 2009.
-                </li>
-                <li>
-                  A.P.J. Abdul Kalam: A Life by Arun Tiwari; Haper Collins, 2015.
-                </li>
-                <li>
-                  The People's President: Dr A P J Abdul Kalam by S M Khan;
-                  Bloomsbury Publishing, 2016.
-                </li>
-              </ul>
-            </section>
-            <footer>
-              <p>
-                Read more about A. P. J. Abdul Kalam on
-                <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
-                  >Wikipedia.</a
-                >
-              </p>
-            </footer>
+        <div class="wrapper">
+          <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+          </span>
+            <div class="form-box login">
+              <h2>Login</h2>
+              <form action="#">
+                  <div class="input-box">
+                      <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                      </span>
+                      <input type="email" required>
+                      <label>Email</label>
+                  </div>
+                  <div class="input-box">
+                    <span class="icon">
+                      <ion-icon name="lock-closed">
+                    </ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                  </div>
+                  <div class="remember-forgot">
+                    <label><input type="checkbox">remember me</label>
+                    <a href="#">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="btn">Login</button>
+                  <div class="login-register">
+                    <p>Already have and account? <a
+                      href="#"
+                      class="register-link">Register</a>
+                    </p>
+                  </div>
+              </form>
+            </div>
+
+            <div class="form-box Register">
+              <h2>Registeration</h2>
+              <form action="#">
+                <div class="input-box">
+                  <span class="icon">
+                    <ion-icon name="person"></ion-icon>
+                  </span>
+                  <input type="text" required>
+                  <label>Username</label>
+                </div>
+                <div class="input-box">
+                      <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                      </span>
+                      <input type="email" required>
+                      <label>Email</label>
+                </div>
+                  <div class="input-box">
+                    <span class="icon">
+                      <ion-icon name="lock-closed">
+                    </ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                  </div>
+                  <div class="remember-forgot">
+                    <label><input type="checkbox"> I 
+                      agree to the terms & conditions</label>
+                    
+                  </div>
+                  <button type="submit" class="btn">Register</button>
+                  <div class="login-register">
+                    <p>Already have and account? <a
+                      href="#"
+                      class="login-link">Login</a>
+                    </p>
+                  </div>
+              </form>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <h2><span class="lg_text">Hi,</span> This Is Vipin</h2>
+        <h1 class="lg_text">FULL STACK DEVELOPER</h1>
+        
+      </div>
+    </section>
+    <section class="black_box">
+      <h2>WORK, I CAN DO FOR <span>YOU..</span></h2>
+    </section>
+    <section class="work">
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="images/web.png" alt="web development" />
+          </div>
+          <div class="card_content">
+            <h3>Web Development</h3>
+            <p>
+              Web development refers to the creating, building, 
+              and maintaining of websites.work involved in developing 
+              a website for the Internet (World Wide Web) or an intranet 
+              (a private network).
           </div>
         </div>
-      </body>
+      </div>
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="images/mobile.png" alt="app development" />
+          </div>
+          <div class="card_content">
+            <h3>App Development</h3>
+            <p>
+              Application development, or app development, 
+              is the process of planning, designing, creating, testing, a
+              nd deploying a software application to perform various operations. 
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid_item">
+        <div class="card">
+          <div class="image_container">
+            <img src="images/web.png" alt="web development" />
+          </div>
+          <div class="card_content">
+            <h3>UI UX Design</h3>
+            <p>
+              UX design focuses on the interaction,
+               that a human user has with everyday products and services. 
+               The goal of UX design is to make using these products and services, 
+               both digital or physical, easy, logical, and fun.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bottom_section">
+      <div class="contact">
+        <h2>Contact Me</h2>
+        <p>
+          To learn Full-stack development,which is used skiss to 
+          Design and create website and applications for this platform.
+
+        </p>
+        <p>codewithVS@example.test</p>
+        <p>+91-7738930720</p>
+
+      </div>
+      <div class="about">
+        <h2>About Me</h2>
+
+        <p>
+          To learn Full-stack development,which is used skiss to 
+          Design and create website and applications for this platform.
+        </p>
+      </div>
+    </section>
+    <footer>LET'S DO BY VS CODING</footer>
+  </body>
 </html>
